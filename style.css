@@ -1,0 +1,91 @@
+h1 {
+  color: rgba(8, 8, 8, 1);
+  font-size: 45px;
+  font-family: "Georgia";
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0
+}
+h2 {
+  color: rgba(41, 41, 41, 1);
+  font-size: 38px;
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0
+}
+h3 {
+  color: rgba(42, 50, 75, 1);
+  font-size: 24px;
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -0.0075em
+}
+p {
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.0005em
+}
+a {
+  color: rgba(42, 50, 75, 1);
+  text-decoration: none
+}
+.img-circle {
+  max-width: 150px;
+  height: auto;
+  border-radius: 100%
+}
+.text-center {
+  text-align: center
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid lightgrey;
+  justify-content: center;
+}
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+.responsive {
+  max-width: 100%;
+  height: auto
+}
+.center {
+  display: block;
+  margin: auto;
+}
+.button-blue {
+  color: white;
+  font-family: "Helvetica Neue";
+  box-shadow: 5px 5px 2px #D3D3D3;
+  font-weight: 600;
+  background-color: rgba(0, 121, 180, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  border: 0cm
+}
+.button:hover {
+  color: rgba(0, 121, 180, 0.7);
+  background-color: white;
+}
+.sm-icon {
+  font-size: 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+}
